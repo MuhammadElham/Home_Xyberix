@@ -562,7 +562,7 @@ h6 {
     letter-spacing: 0;
     margin: 0 0.75em 0 0;
 }
-
+/*Change in Cursor*/
 .arrow-anchor .img-wrapper {
     width: 3em;
     height: 3em;
@@ -573,6 +573,7 @@ h6 {
     position: relative;
     background: #878787;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .arrow-anchor .img-wrapper svg {
@@ -2800,13 +2801,13 @@ p.xs-font {
     justify-content: center;
     align-items: center;
 }
-/* Change in Logo Hover */
-/* .collabCompanies__Slider .swiper-slide .img-wrapper img,
-.img-gateways,
-.img-service-grey {
-    filter: grayscale(1);
-    transition: 0.2s;
-} */
+/*Change in Hover Logo*/
+/*.collabCompanies__Slider .swiper-slide .img-wrapper img,*/
+/*.img-gateways,*/
+/*.img-service-grey {*/
+/*    filter: grayscale(1);*/
+/*    transition: 0.2s;*/
+/*}*/
 
 .collabCompanies__Slider .swiper-slide:hover .img-wrapper img {
     filter: grayscale(0);
@@ -2939,11 +2940,11 @@ p.xs-font {
     flex-direction: column;
     justify-content: space-between;
 }
-/* Change in Hover Color */
+/*Change in Hover Color*/
 .faq__Slider--descrip {
     top: 0;
     left: 0;
-    /* background-color: #828282; */
+    /*background-color: #828282;*/
     background-color: #aeaeae;
 }
 
@@ -7227,10 +7228,10 @@ label.referral {
     z-index: -1;
 }
 
-
+/*Change in Circle padding*/
 
 .research-design__slider {
-    padding: 3em 0 0;
+    padding: 3em 0;
 }
 
 @media (max-width: 576px) {
@@ -7259,19 +7260,19 @@ label.referral {
         padding: 1em 0 0;
     }
 }
-
-/* .research-design__slider--border {
-    width: 16em;
-    height: 16em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #000;
-    border-radius: 50%;
-    position: relative;
-    padding: 0 3em;
-    text-align: center;
-} */
+/*Change in Circle*/
+/*.research-design__slider--border {*/
+/*    width: 16em;*/
+/*    height: 16em;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border: 1px solid #000;*/
+/*    border-radius: 50%;*/
+/*    position: relative;*/
+/*    padding: 0 3em;*/
+/*    text-align: center;*/
+/*}*/
 .research-design__slider {
     perspective: 1000px; /* Add depth to the 3D transformation */
 }
@@ -7295,7 +7296,7 @@ label.referral {
     transform: scale(1.1) translateZ(50px); /* Scale up and move forward */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhance the popping effect */
 }
-
+/*End*/
 .research-design__slider--border h5 {
     text-transform: capitalize;
 }
@@ -9967,24 +9968,24 @@ input {
 .brand-logo {
     display: inline-block;
 }
+/*Change in Logo Navbar*/
+/*.brand-logo img {*/
+/*    filter: grayscale(100%);*/
+/*    transition: filter 0.3s ease-in-out;*/
+/*}*/
 
-/* .brand-logo img {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
-}
+/*.brand-logo img:hover {*/
+/*    filter: grayscale(0%);*/
+/*}*/
+/*Change in Logo Footer*/
+/*.logo {*/
+/*    filter: grayscale(100%);*/
+/*    transition: filter 0.3s ease-in-out;*/
+/*}*/
 
-.brand-logo img:hover {
-    filter: grayscale(0%);
-} */
-
-.logo {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
-}
-
-.logo:hover {
-    filter: grayscale(0%);
-}
+/*.logo:hover {*/
+/*    filter: grayscale(0%);*/
+/*}*/
 
 .gtco-testimonials {
     position: relative;
@@ -10176,14 +10177,14 @@ input {
     z-index: 1;
     font-size: 1.3em;
 }
-
+/*Change in Let click*/
 .portfolio-section-top button {
     margin: 0 auto;
     z-index: 1;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    /* min-width: 214px; */
+    /*min-width: 214px;*/
     border-radius: 4px;
     line-height: 1;
     color: #fff;
